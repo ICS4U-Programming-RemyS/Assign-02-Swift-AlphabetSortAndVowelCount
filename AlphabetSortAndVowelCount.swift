@@ -13,7 +13,7 @@
 // Import Foundation
 import Foundation
 
-// Define the InputError enum to handle errors
+// Define the InputError enum to handle errors from 2-02
 enum InputError: Error {
     case invalidInput
 }
@@ -26,13 +26,13 @@ print("This program will count the number of vowels in a string and sort the str
 let inputFile = "./Assign-02-input.txt"
 let outputFile = "./Assign-02-output.txt"
 
-// Open the input file for reading
+// Open the input file for reading from 2-02
 guard let input = FileHandle(forReadingAtPath: inputFile) else {
     // Throw an error if the input file cannot be read
     throw InputError.invalidInput
 }
 
-// Open the output file for writing
+// Open the output file for writing from 2-02
 guard let output = FileHandle(forWritingAtPath: outputFile) else {
     // Throw an error if the output file cannot be written to
     throw InputError.invalidInput
@@ -40,9 +40,9 @@ guard let output = FileHandle(forWritingAtPath: outputFile) else {
 
 // Try to read from the input file
 do {
-    // Read the contents of the input file
+    // Read the contents of the input file from 2-02
     let inputData = try String(contentsOfFile: inputFile, encoding: .utf8)
-    // Split the input data into lines
+    // Split the input data into lines from 2-02
     let inputLines = inputData.split(separator: "\n")
 
     // Initialize lists to store words
@@ -79,7 +79,6 @@ do {
         }
     }
 
-
     // Call the bubble sort function to sort the words and their counts
     let sortedResults = bubbleSort(listWords: listWords, listVowelCounts: listVowelCounts, listYCounts: listYCounts)
     // Set the sorted words to the first element of the sorted results
@@ -105,7 +104,7 @@ do {
         outputStr += "\(sortedWords[index]): \(sortedVowelCounts[index]) vowels and \(sortedYCounts[index]) number of y's\n"
     }
 
-    // Write the output string to the output file
+    // Write the output string to the output file from 2-02
     output.write(outputStr.data(using: .utf8)!)
 
     // Write the output string to the output file
@@ -159,7 +158,7 @@ func bubbleSort(listWords: [String], listVowelCounts: [Int], listYCounts: [Int])
                 let tempVowelCount = listVowelCounts[index]
                 listVowelCounts[index] = listVowelCounts[index + 1]
                 listVowelCounts[index + 1] = tempVowelCount
-                
+
                 // Swap the 'y' counts
                 let tempYCount = listYCounts[index]
                 listYCounts[index] = listYCounts[index + 1]
