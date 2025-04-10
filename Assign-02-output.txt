@@ -1,0 +1,46 @@
+Sorted words:
+Aaron
+Abigail
+Amelia
+Ava
+Benjamin
+Charlotte
+Elijah
+Emily
+Ethan
+Evelyn
+Harper
+Isabella
+James
+Liam
+Logan
+Lucas
+Mason
+Mia
+Noah
+Oliver
+Sophia
+
+Vowel count:
+Aaron: 3 vowels and 0 number of y's
+Abigail: 4 vowels and 0 number of y's
+Amelia: 4 vowels and 0 number of y's
+Ava: 2 vowels and 0 number of y's
+Benjamin: 3 vowels and 0 number of y's
+Charlotte: 3 vowels and 0 number of y's
+Elijah: 3 vowels and 0 number of y's
+Emily: 2 vowels and 1 number of y's
+Ethan: 2 vowels and 0 number of y's
+Evelyn: 2 vowels and 1 number of y's
+Harper: 2 vowels and 0 number of y's
+Isabella: 4 vowels and 0 number of y's
+James: 2 vowels and 0 number of y's
+Liam: 2 vowels and 0 number of y's
+Logan: 2 vowels and 0 number of y's
+Lucas: 2 vowels and 0 number of y's
+Mason: 2 vowels and 0 number of y's
+Mia: 2 vowels and 0 number of y's
+Noah: 2 vowels and 0 number of y's
+Oliver: 3 vowels and 0 number of y's
+Sophia: 3 vowels and 0 number of y's
+els and 0 number of y's
