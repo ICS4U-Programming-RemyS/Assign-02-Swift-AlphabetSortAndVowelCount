@@ -16,9 +16,11 @@ Liam
 Logan
 Lucas
 Mason
+Messi
 Mia
 Noah
 Oliver
+Remy
 Sophia
 
 Vowel count:
@@ -39,8 +41,9 @@ Liam: 2 vowels and 0 number of y's
 Logan: 2 vowels and 0 number of y's
 Lucas: 2 vowels and 0 number of y's
 Mason: 2 vowels and 0 number of y's
+Messi: 2 vowels and 0 number of y's
 Mia: 2 vowels and 0 number of y's
 Noah: 2 vowels and 0 number of y's
 Oliver: 3 vowels and 0 number of y's
+Remy: 1 vowels and 1 number of y's
 Sophia: 3 vowels and 0 number of y's
-els and 0 number of y's

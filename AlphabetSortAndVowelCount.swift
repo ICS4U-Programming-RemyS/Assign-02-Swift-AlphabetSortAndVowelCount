@@ -20,7 +20,8 @@ enum InputError: Error {
 
 // Welcome message
 print("Welcome to the Alphabet Sort and Vowel Count program!")
-print("This program will count the number of vowels in a string "
+print("This program will count the "
++ "number of vowels in a string "
 + "and sort the string in alphabetical order using bubble sort.")
 
 // Define the input and output file paths
@@ -103,7 +104,8 @@ do {
     // Add vowel and 'y' counts for each word
     for index in 0..<sortedVowelCounts.count {
         outputStr +=
-        "\(sortedWords[index]): \(sortedVowelCounts[index]) vowels and \(sortedYCounts[index]) number of y's\n"
+        "\(sortedWords[index]): \(sortedVowelCounts[index])"
+        + " vowels and \(sortedYCounts[index]) number of y's\n"
     }
 
     // Write the output string to the output file from 2-02
